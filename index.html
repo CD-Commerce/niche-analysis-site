@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='./style.css' />
+    <title> Nicheanalysis </title>
+</head>
+
+<body>
+    <h1>Create Nicheanalysis</h1>
+    <h2>Required Data:</h2>
+    <h3>Sellersprite</h3>
+    <table class="tablestyle" id="sellersprite">
+        <tbody>
+        </tbody>
+    </table>
+    <h3>Amazon POE</h3>
+    <table class="tablestyle" id="amazon">
+        <tbody>
+        </tbody>
+    </table>
+    <button id="upload" class="button upload-button">Upload</button>
+    <button class="button create-button" id="create">
+        Create
+    </button>
+    <p id="status-message-visibility" style="display:none"><span id="status-message"></span><span id="gotit"
+            onclick="gotItClicked()">&nbsp;Got it.</span></p>
+    <script>
+        function gotItClicked() {
+            document.getElementById("status-message-visibility").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
